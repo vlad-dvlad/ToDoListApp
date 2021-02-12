@@ -6,15 +6,15 @@ body {
 }
 
 .skew {
-    margin-top: -220px;
-    padding: 510px 0;
+    margin-top: -70px;
+    padding: 400px 0;
     transform: skew(0deg, -8deg);
     background: #3CB371;
 }
 
 .content {
     text-align: center;
-    transform: skew(0deg, 0deg);
+    transform: skew(0deg, 8deg);
 }
 
 h1 {
@@ -28,8 +28,9 @@ p {
 }
 
 .footer {
-    padding-top: 60px;
+    padding-top: 50px;
     text-align: right;
     padding-right: 20px;
-    color:rgb(54, 170, 108);
+    font-family: 'Open Sans', sans-serif;
+    color: coral;
 }
