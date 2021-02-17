@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 24px;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left:auto;
+    display: flex;
+    justify-content:center;
+	align-items:center;
+    min-height: 30vh;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid #EEEEEE;
+}
+
+.table-header {
+    /* display: flex; */
+    width:100%;
+	background:#000;
+    padding: 18px 0;
+}
+
+.table-row {
+    padding: 12px;
+}
+
+.table-data {
+
+    padding: 18px 0;
+    background:#000;
+}

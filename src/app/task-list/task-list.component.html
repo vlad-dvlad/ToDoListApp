@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoAppList</title>
+</head>
+<body>
+    <div class="container"> 
+        <table class="table">
+            
+            <thead class="table-header">
+                <tr>
+                    <th scope="col" class="table-row">#</th>
+                    <th scope="col" class="table-row">TITLE</th>
+                    <th scope="col" class="table-row">CATEGORY</th>
+                    <th scope="col" class="table-row"></th>
+                    <th scope="col" class="table-row"></th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr *ngFor="let task of tasks">
+                    <td class="table-data">{{task.id}}</td>
+                    <td class="table-data">{{task.title}}</td>
+                    <td class="table-data">{{task.category}}</td>
+                    <td class="table-data"></td>
+                    <td class="table-data"></td>
+                </tr>
+            </tbody>
+        
+        </table>
+    </div>
+</body>
+</html>

@@ -9,7 +9,7 @@ export class ToDoService {
     private todoUrl: string;
 
     constructor(private http: HttpClient){
-        this.todoUrl = 'http://localhost:8080/app/todo';
+        this.todoUrl = 'http://localhost:8080/ToDoApp/app/todo/';
     }
 
     public getAllTasks(): Observable<Task[]> {
